@@ -337,3 +337,27 @@ nav:hover {
 }
 
 /* footer end */
+
+
+.window {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.window__model {
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  background: white;
+}
+
+.window:target {
+  display: flex;
+}
